@@ -1,38 +1,124 @@
-.App {
-  text-align: center;
+.header {
+  background-image: linear-gradient(to right, #af6c3a, #acaba7);
+  z-index: 3;
+}
+.nav-link {
+  color: #a64620 !important;
+  font-weight: 600 !important;
+  font-family: 'Rajdhani', sans-serif !important;
+  font-size: 18px !important;
+}
+.navbar-brand {
+  color: #acaba7 !important;
+}
+.bg-image {
+  background-image: url("./img//background.svg");
+  z-index: 0;
+  background-repeat: no-repeat;
+}
+.photo {
+  border: #acaba7 solid 5px;
+  border-radius: 30px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.ayselunlu {
+  margin-top: 530px;
+  margin-left: -400px;
+}
+.mainpage-line {
+  margin-top: -70px;
+  height: 3px;
+  background: #a64620;
+  width: 1050px;
+}
+.bg-color {
+  background-color:  #acaba7;
+}
+.about_me__title{
+  font-size: 22px;
+  font-weight: 600;
+  font-family: 'Rajdhani', sans-serif;
+  color: #a64620;
+}
+.about_me__text{
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Rajdhani', sans-serif;
+  color: #544C42;
+}
+.about_me__space{
+  /* padding-top: 50px; */
+  padding-bottom: 50px;
+}
+.footer{
+  background-color: #a64620 ;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.contact_title{
+  font-size: 22px;
+  font-weight: 600;
+  font-family: 'Rajdhani', sans-serif;
+  color: #a64620;
+}
+.experience{
+  background-color: #AF6C3A;
+  border-radius: 10px;
+  border: solid #AF6C3A;
+  margin: 70px;
+  padding: 30px;
+}
+.experience_title{
+  color: #a64620;
+  font-weight: 600;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 22px;
+}
+.experience_text{
+  color:#acaba7;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.skills{
+  background-color: #A38977;
+  border-radius: 10px;
+  border: solid #A38977;
+  padding: 30px;
+  margin: 70px;
+}
+.skills_title{
+  color:#a64620;
+  font-weight: 600;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 22px;
+}
+.skills_text{
+  color:#544C42;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.contact{
+  background-color: #544C42;
+  border-radius: 10px;
+  border: solid #544C42;
+  margin-left: 80px;
+  margin-top: 70px;
+  padding: 30px;
+}
+.contact_title{
+  color:#a64620;
+  font-weight: 600;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 22px;
+}
+.contact_text{
+  color: #A38977;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
