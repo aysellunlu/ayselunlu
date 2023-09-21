@@ -1,0 +1,44 @@
+:root {
+  --primary-bg-dark: #191136;
+  --primary-card-bg-dark: #2b2349;
+  --secondary-card-bg-dark: #1c133f;
+  --text-gray-dark: #726992;
+  --primary-white: #d9d9d9;
+  --primary-pink: #ef246d;
+  --primary-blue: #24b2ef;
+  --primary-green: #94d60a;
+  --secondary-green: #bbff29;
+  --primary-purple: #8818fb;
+  --secondary-purple: #b686ef;
+  --primary-yellow: #ffb800;
+  --primary-turquoise: #1dbbc2;
+  --primary-text: "JetBrains Mono", monospace;
+  --text-extra-light: 200;
+  --text-light: 300;
+  --text-normal: 400;
+  --text-medium: 500;
+  --text-bold: 600;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+* {
+  border: none;
+}
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  min-height: 100%;
+  background-color: var(--primary-bg-dark);
+}
+#root {
+  width: 100%;
+  height: 100%;
+}

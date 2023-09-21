@@ -1,0 +1,23 @@
+.card {
+  padding: 20px;
+  margin: 16px;
+}
+.title {
+  font-family: var(--primary-text);
+  font-size: 28px;
+  font-weight: var(--text-bol);
+  line-height: normal;
+}
+.yellowCard {
+  background: var(--primary-yellow);
+  color: var(--primary-pink);
+}
+.purpleCard {
+  background: var(--primary-purple);
+  color: var(--secondary-green);
+}
+
+.turquoiseCard {
+  background: var(--primary-turquoise);
+  color: var(--primary-purple);
+}
