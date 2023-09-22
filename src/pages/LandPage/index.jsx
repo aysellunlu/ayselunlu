@@ -11,7 +11,7 @@ const LandPage = ({ className = "", ...props }) => {
         <div className={`${styles.paragraph}`}>
           <div className={`${styles.paragraphTitle}`}>
             <span className={`${styles.gray}`}> Hi I'm</span>{" "}
-            <span className={`${styles.yellow}`}>Aysel</span>
+            <span className={`${styles.yellow} ${styles.transformColor}`}>Aysel</span>
           </div>
           <div className={`${styles.paragraphText} ${styles.gray}`}>
             I design and code mobile and web interfaces.I worked with different
@@ -24,7 +24,7 @@ const LandPage = ({ className = "", ...props }) => {
           </div>
         </div>
         <div className={`${styles.mainImg}`}>
-          <img src={ProfileImg} width="50%" />
+          <img src={ProfileImg} width="50%" alt="img"/>
         </div>
       </div>
       <div className={`${styles.row}`}>
@@ -33,7 +33,7 @@ const LandPage = ({ className = "", ...props }) => {
       </div>
       <div className={`${styles.pinkLine}`}></div>
       <div className={`${styles.row}`}>
-        <InfoCard children="Design" type="yellowCard" />
+        <InfoCard children="Design" type="yellowCard" information="Creative Design, Creative Design, Creative Design," />
         <InfoCard children="Development" type="purpleCard" />
         <InfoCard children="Ideas" type="turquoiseCard" />
       </div>

@@ -1,13 +1,20 @@
-
 import Header from "./layout/Header";
 import LandPage from "./pages/LandPage";
-import "./styles/global.css";
+import styles from "./styles.module.css";
+import HeaderImg from "./img/space-h.png";
 
-function App() {
+function App({ className = "", ...props }) {
   return (
     <div className="body">
-      <Header/>
-     <LandPage/>
+      <div className={`${styles.row}`}>
+        <div className={`${styles.headerImgContainer}`}>
+          <img src={HeaderImg} alt="" />
+        </div>
+        <div className={`${styles.headerContainer}`}>
+          <Header />
+        </div>
+      </div>
+      <LandPage />
     </div>
   );
 }

@@ -1,0 +1,10 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.headerImgContainer{
+    flex: 0 0 calc(5%);
+}
+.headerContainer{
+    flex: 0 0 calc(93%);
+}
