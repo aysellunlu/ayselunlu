@@ -10,6 +10,10 @@
   margin-top: 50px;
   margin-bottom: 50px;
 }
+.paragraphTitle{
+  font-weight: 500;
+  font-size: 48;
+}
 
 .pinkLine::after {
   content: "";
@@ -20,4 +24,22 @@
   height: 40px;
   background-color: inherit;
   border-radius: 50%;
+}
+.pink {
+  color: var(--primary-pink);
+}
+.green {
+  color: var(--primary-green);
+}
+.blue {
+  color: var(--primary-blue);
+}
+.purple {
+  color: var(--primary-purple);
+}
+.yellow {
+  color: var(--primary-yellow);
+}
+.gray {
+  color: var(--text-gray-dark);
 }
