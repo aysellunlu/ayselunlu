@@ -8,13 +8,11 @@
 }
 .title {
   color: var(--text-gray-dark);
-  font-family: var(--primary-text);
   font-weight: var(--text-medium);
   font-size: 24px;
 }
 .date {
   color: var(--primary-pink);
-  font-family: var(--primary-text);
   font-weight: var(--text-extra-light);
   font-size: 16px;
   margin-top: 16px;

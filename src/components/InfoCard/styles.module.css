@@ -1,9 +1,12 @@
 .card {
-  padding: 20px;
+  padding: 100px 40px 100px 40px;
   margin: 16px;
+  flex: 0 0 calc(25%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .title {
-  font-family: var(--primary-text);
   font-size: 28px;
   font-weight: var(--text-bol);
   line-height: normal;

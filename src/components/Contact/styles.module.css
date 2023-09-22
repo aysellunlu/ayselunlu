@@ -1,0 +1,20 @@
+.container {
+  padding-top: 5%;
+  padding-left: 15%;
+}
+.text {
+  color: var(--primary-pink);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: right;
+  margin-bottom: 50px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.iconContainer{
+  margin: 10px;
+}

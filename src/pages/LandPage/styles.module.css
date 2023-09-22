@@ -1,0 +1,23 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.pinkLine {
+  position: relative;
+  width: 90%;
+  height: 10px;
+  background-color: var(--primary-pink);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.pinkLine::after {
+  content: "";
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  width: 40px;
+  height: 40px;
+  background-color: inherit;
+  border-radius: 50%;
+}

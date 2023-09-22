@@ -1,0 +1,27 @@
+.bg {
+  background-image: url("../../img/space-w.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.bigText {
+  color: white;
+  font-size: 72px;
+  padding: 60px;
+  font-weight: 600;
+}
+.smallText {
+  font-size: 36px;
+  font-weight: 600;
+  padding: 30px 50px 30px 50px;
+}
+.green {
+  color: var(--primary-green);
+}
+.turquoise {
+  color: var(--primary-turquoise);
+}

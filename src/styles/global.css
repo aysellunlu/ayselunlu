@@ -34,9 +34,9 @@ html,
 body {
   height: 100%;
   overflow-x: hidden;
-  overflow-y: hidden;
   min-height: 100%;
   background-color: var(--primary-bg-dark);
+  font-family: var(--primary-text);
 }
 #root {
   width: 100%;
