@@ -1,0 +1,28 @@
+.container {
+  right: 0px;
+  padding-left: 36px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.textContainer {
+  flex: 0 0 calc(97.5%);
+}
+.imgContainer {
+  flex: 0 0 calc(2.5%);
+  align-items: center;
+  align-self: center;
+}
+.title {
+  font-size: 36px;
+  font-weight: 500;
+  color: var(--primary-blue);
+  padding-bottom: 20px;
+}
+.paragraph {
+  color: var(--text-gray-dark);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 40px;
+}
