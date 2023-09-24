@@ -1,10 +1,16 @@
 .row {
   display: flex;
   flex-wrap: wrap;
+  padding-left: 92px;
 }
 .headerImgContainer{
-    flex: 0 0 calc(5%);
+    position: relative;;
+}
+.headerImgContainer > img{
+  position: absolute;
+  top: 0;
+  left: -92px;
 }
 .headerContainer{
-    flex: 0 0 calc(93%);
+    flex: 1;
 }
