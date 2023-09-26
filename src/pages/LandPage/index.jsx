@@ -4,6 +4,7 @@ import LetsWork from "../../components/LetsWork";
 import styles from "./styles.module.css";
 import ProfileImg from "../../img/profile-img.png";
 import Biography from "../../contents/Biography";
+import Experiences from "../../contents/Experiences";
 
 const LandPage = ({ className = "", ...props }) => {
   return (
@@ -45,6 +46,7 @@ const LandPage = ({ className = "", ...props }) => {
         <InfoCard children="Ideas" type="turquoiseCard" />
       </div>
       <Biography />
+      <Experiences/>
     </div>
   );
 };

@@ -1,0 +1,47 @@
+.container {
+  padding: 36px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.title {
+  color: var(--primary-green);
+  font-size: 36px;
+  font-weight: 500;
+  align-self: end;
+  align-items: end;
+}
+.work {
+  font-size: 100px;
+  color: var(--primary-white);
+  font-weight: 700;
+  align-self: end;
+  align-items: end;
+}
+.point {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: var(--primary-green);
+  color: var(--primary-green);
+  border-radius: 50%;
+  font-size: 36px;
+  align-items: center;
+  align-self: center;
+  margin-top: -150px;
+}
+.experiencesContanier {
+  background-color: var(--primary-card-bg-dark);
+  width: 70%;
+  padding: 40px;
+  margin-top: 40px;
+}
+.experience {
+  color: var(--text-gray-dark);
+  font-family: JetBrains Mono;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 40px;
+}
