@@ -1,5 +1,7 @@
 .container {
-  padding: 36px;
+  border-bottom: 1px solid var(--primary-green);
+  width: 70%;
+  padding-bottom: 36px;
 }
 .row {
   display: flex;
@@ -33,7 +35,6 @@
 }
 .experiencesContanier {
   background-color: var(--primary-card-bg-dark);
-  width: 70%;
   padding: 40px;
   margin-top: 40px;
 }

@@ -5,6 +5,8 @@ import styles from "./styles.module.css";
 import ProfileImg from "../../img/profile-img.png";
 import Biography from "../../contents/Biography";
 import Experiences from "../../contents/Experiences";
+import ProjectCard from "../../components/ProjectCard";
+import ProjectArchive from "../../contents/ProjectArchive";
 
 const LandPage = ({ className = "", ...props }) => {
   return (
@@ -46,7 +48,8 @@ const LandPage = ({ className = "", ...props }) => {
         <InfoCard children="Ideas" type="turquoiseCard" />
       </div>
       <Biography />
-      <Experiences/>
+      <Experiences />
+      <ProjectArchive/>
     </div>
   );
 };
