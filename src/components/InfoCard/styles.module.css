@@ -24,3 +24,7 @@
   background: var(--primary-turquoise);
   color: var(--primary-purple);
 }
+.infoBackground {
+  background-color: var(--primary-bg-dark);
+  padding: 36px;
+}
